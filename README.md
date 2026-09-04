@@ -38,7 +38,6 @@ modular documentation.
 
 ```text
 concepts/      Conceptual explanations of telemetry topics
-tasks/         Procedural content
 reference/     Metric and technical reference information
 reusable/      Reusable DITA content
 telemetry.ditamap
