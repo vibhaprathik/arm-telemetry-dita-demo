@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map>
+    <title>Processor Telemetry Documentation</title>
+
+    <topicref
+        keys="telemetry-overview"
+        href="concepts/telemetry-overview.dita"/>
+
+    <topicref
+        keys="topdown-methodology"
+        href="concepts/topdown-methodology.dita"/>
+
+</map>
