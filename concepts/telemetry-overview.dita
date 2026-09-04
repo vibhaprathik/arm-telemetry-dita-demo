@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="telemetry-overview">
+    <title>Processor telemetry overview</title>
+
+    <shortdesc>
+        Processor telemetry provides information about how a processor is
+        behaving while workloads execute.
+    </shortdesc>
+
+    <conbody>
+        <p>
+            Telemetry data can help engineers understand processor utilisation,
+            workload behaviour, and potential performance bottlenecks.
+        </p>
+
+        <section>
+            <title>Performance monitoring</title>
+
+            <p>
+                Modern processors provide hardware mechanisms for collecting
+                information about events that occur while software is running.
+                These events can include executed instructions, processor cycles,
+                cache activity, and other architectural events.
+            </p>
+        </section>
+
+        <section>
+            <title>Performance Monitoring Unit</title>
+
+            <p>
+                A Performance Monitoring Unit (PMU) provides counters that can
+                record selected processor events. Software tools can read these
+                counters and use the resulting data for performance analysis.
+            </p>
+        </section>
+
+        <section>
+            <title>Using telemetry data</title>
+
+            <p>
+                Individual counters are useful, but meaningful performance
+                analysis often requires interpreting multiple measurements
+                together. Metrics can combine lower-level measurements into
+                information that is easier to use when analysing workload
+                behaviour.
+            </p>
+        </section>
+    </conbody>
+</concept>
