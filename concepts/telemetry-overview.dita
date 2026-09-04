@@ -28,12 +28,7 @@
 
         <section>
             <title>Performance Monitoring Unit</title>
-
-            <p>
-                A Performance Monitoring Unit (PMU) provides counters that can
-                record selected processor events. Software tools can read these
-                counters and use the resulting data for performance analysis.
-            </p>
+<p conref="../reusable/common-telemetry-content.dita#common-telemetry-content/pmu-definition"/>
         </section>
 
         <section>
