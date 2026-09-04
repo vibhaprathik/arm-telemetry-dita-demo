@@ -1,1 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
+<topic id="common-telemetry-content">
+    <title>Reusable telemetry content</title>
+
+    <body>
+        <p id="pmu-definition">
+            A Performance Monitoring Unit (PMU) provides hardware counters
+            that can record selected processor events while software executes.
+        </p>
+
+        <p id="metric-definition">
+            A telemetry metric combines one or more underlying measurements
+            to provide information that can help interpret processor or
+            workload behaviour.
+        </p>
+    </body>
+</topic>
