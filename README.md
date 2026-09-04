@@ -41,3 +41,20 @@ concepts/      Conceptual explanations of telemetry topics
 reference/     Metric and technical reference information
 reusable/      Reusable DITA content
 telemetry.ditamap
+```
+## DITA features demonstrated
+
+This project contains practical examples of several DITA structured-authoring techniques:
+
+- **Concept topics** – processor telemetry and Topdown analysis are documented as standalone concept topics.
+- **Reference content** – telemetry metric information is modelled as a DITA reference topic.
+- **Content reuse with `conref`** – reusable PMU and metric definitions are maintained in a shared topic and reused by other topics.
+- **Indirect linking with `keyref`** – topic relationships use keys defined in the DITA map rather than hard-coded file references.
+- **DITA map** – `telemetry.ditamap` defines the information structure and topic relationships.
+- **Docs-as-code workflow** – source content is maintained as XML in Git and developed through incremental commits.
+
+## Project scope
+
+This is an independent learning and technical-writing portfolio project. It uses publicly available Arm documentation as the technical domain for practising structured authoring and content reuse.
+
+It is not official Arm documentation and does not contain confidential or proprietary Arm information.
