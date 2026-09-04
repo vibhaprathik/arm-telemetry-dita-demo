@@ -13,7 +13,7 @@ technical content.
 The repository demonstrates:
 
 - structured technical authoring using DITA XML
-- concept, task, and reference topic types
+- concept and reference topic types
 - topic organisation using a DITA map
 - reusable content using `conref`
 - reusable terminology and links using `keyref`
