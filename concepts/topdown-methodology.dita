@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="topdown-methodology">
+    <title>Topdown performance analysis</title>
+
+    <shortdesc>
+        Topdown analysis provides a structured way to interpret processor
+        performance data and identify where execution resources may be
+        underutilised.
+    </shortdesc>
+
+    <conbody>
+        <p>
+            Processor telemetry can produce many individual measurements.
+            A structured analysis method helps engineers interpret those
+            measurements in a consistent way rather than examining counters
+            independently.
+        </p>
+
+        <section>
+            <title>Using telemetry metrics</title>
+
+            <p conref="../reusable/common-telemetry-content.dita#common-telemetry-content/metric-definition"/>
+
+            <p>
+                Metrics can be organised into progressively more detailed
+                categories, allowing an investigation to move from a high-level
+                observation toward more specific causes of performance behaviour.
+            </p>
+        </section>
+
+        <section>
+            <title>Analysis workflow</title>
+
+            <p>
+                A Topdown-style workflow begins with broad performance
+                characteristics and uses additional telemetry information to
+                investigate areas that require further analysis.
+            </p>
+        </section>
+
+        <section>
+            <title>Why structured analysis is useful</title>
+
+            <p>
+                Using a defined analysis approach can make performance
+                investigations more repeatable and can help communicate findings
+                consistently across engineering teams.
+            </p>
+        </section>
+    </conbody>
+</concept>
