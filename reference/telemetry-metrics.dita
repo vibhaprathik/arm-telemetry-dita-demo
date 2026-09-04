@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="telemetry-metrics">
+    <title>Telemetry metrics reference</title>
+
+    <shortdesc>
+        Example reference information showing how processor telemetry metrics
+        can be documented in a structured format.
+    </shortdesc>
+
+    <refbody>
+        <section>
+            <title>Metric information</title>
+
+            <simpletable>
+                <sthead>
+                    <stentry>Metric</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Purpose</stentry>
+                </sthead>
+
+                <strow>
+                    <stentry>CPU cycles</stentry>
+                    <stentry>
+                        Represents processor clock cycles observed during
+                        workload execution.
+                    </stentry>
+                    <stentry>
+                        Provides a basic measure used alongside other
+                        performance data.
+                    </stentry>
+                </strow>
+
+                <strow>
+                    <stentry>Instructions</stentry>
+                    <stentry>
+                        Represents instructions completed during workload
+                        execution.
+                    </stentry>
+                    <stentry>
+                        Can be compared with cycle measurements when analysing
+                        execution efficiency.
+                    </stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </refbody>
+</reference>
