@@ -42,5 +42,14 @@
                 behaviour.
             </p>
         </section>
+<section>
+    <title>Related performance analysis</title>
+
+    <p>
+        For a structured approach to interpreting telemetry information,
+        see <xref keyref="topdown-methodology">Topdown performance analysis</xref>.
+    </p>
+</section>
+
     </conbody>
 </concept>
