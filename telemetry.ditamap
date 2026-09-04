@@ -3,7 +3,13 @@
 
 <map>
     <title>Processor Telemetry Documentation</title>
-
+    <keydef keys="product-name">
+        <topicmeta>
+            <keywords>
+                <keyword>Arm telemtry Solution</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
     <topicref
         keys="telemetry-overview"
         href="concepts/telemetry-overview.dita"/>
