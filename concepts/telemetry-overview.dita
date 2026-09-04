@@ -11,8 +11,8 @@
 
     <conbody>
         <p>
-            Telemetry data can help engineers understand processor utilisation,
-            workload behaviour, and potential performance bottlenecks.
+            <keyword keyref="product-name" /> is the umbrella term this project uses for Arm's processor telemetry framework. 
+            It can help engineers understand processor utilisation, workload behaviour, and potential performance bottlenecks.
         </p>
 
         <section>
